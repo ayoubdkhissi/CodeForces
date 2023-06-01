@@ -12,7 +12,7 @@ for (int _ = 0; _ < t; _++)
  * Notes: 
  *  - if the 2 strings have the first or the last character c in common, then the answer is c* or *c
  *  - if the 2 strings have at least 2 neighbour characters cc in common then the answer is *cc*
- *  - elese there is no answer.
+ *  - eles there is no answer.
  *  
  *  the first case is trivial.
  *  int the second case I have used the sliding window technique, 
