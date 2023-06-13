@@ -24,17 +24,6 @@ static void Solve()
     var (n, k, q) = (nums[0], nums[1], nums[2]);
     var a = ReadLongArray();
 
-    if(n == 1 && a[0]<=q)
-    {
-        Console.WriteLine(1);
-        return;
-    }
-    if(n == 1 && a[0]>q) 
-    {
-        Console.WriteLine(0);
-        return;
-    }
-
 
     int i = 0;
     long consecutive_count = 0;
