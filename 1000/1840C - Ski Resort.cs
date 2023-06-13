@@ -12,7 +12,7 @@ for (int _ = 0; _ < t; _++)
  * Notes: 
  * we need to find all segments where the rule is verified (at least k consecutive days where a[i]<=q)
  * then for each segment we calculate the number of possible visits which is:
- * - 1 + 2 + .... +(n-k+1) = (n-k+1)(n-k+2)/2     straight famous sum formula!
+ * 1 + 2 + .... +(n-k+1) = (n-k+1)(n-k+2)/2     straight famous sum formula!
  * it is also equivalent to lCk (Combination) where l is the lenght of the segment.
  * 
  * then answer is simply the sum of the number of possibilities of all segments in the input.
